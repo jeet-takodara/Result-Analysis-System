@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="733.0" prefHeight="850.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentTable">
+   <children>
+      <Label fx:id="Status" layoutX="48.0" layoutY="14.0" prefHeight="39.0" prefWidth="726.0" text="Status">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView id="table" fx:id="table" layoutX="188.0" layoutY="86.0" prefHeight="632.0" prefWidth="737.0" stylesheets="@application.css">
+         <columns>
+            <TableColumn fx:id="USN" prefWidth="159.0" text="USN" />
+            <TableColumn fx:id="NAME" prefWidth="183.0" text="NAME" />
+            <TableColumn fx:id="EMAIL" prefWidth="203.0" text="EMAIL" />
+            <TableColumn fx:id="PHONE" prefWidth="191.0" text="PHONE" />
+         </columns>
+      </TableView>
+      <Button layoutX="54.0" layoutY="231.0" mnemonicParsing="false" onAction="#callcc" text="Create Class" />
+      <Button layoutX="942.0" layoutY="231.0" mnemonicParsing="false" onAction="#callis" text="Insert Student" />
+      <Button layoutX="964.0" layoutY="387.0" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+      <Button layoutX="939.0" layoutY="304.0" mnemonicParsing="false" onAction="#callds" text="Delete Student" />
+      <Button layoutX="51.0" layoutY="304.0" mnemonicParsing="false" onAction="#calls" text="Add Subjects" />
+      <Button layoutX="54.0" layoutY="378.0" mnemonicParsing="false" onAction="#callim" text="Insert Marks" />
+      <Button layoutX="310.0" layoutY="760.0" mnemonicParsing="false" onAction="#callcr" prefHeight="31.0" prefWidth="119.0" text="Class Report" />
+      <Button layoutX="669.0" layoutY="760.0" mnemonicParsing="false" onAction="#callsr" text="Student Report" />
+      <Label fx:id="STRENGTH" alignment="CENTER" layoutX="964.0" layoutY="476.0" prefHeight="56.0" prefWidth="70.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

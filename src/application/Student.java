@@ -1,0 +1,50 @@
+package application;
+
+ public class Student {
+	 
+	 public String usn,name,email,phone;
+	
+	public Student(String usn, String name, String email, String phone) {
+		this.usn = usn;
+		this.name = name;
+		this.email = email;
+		this.phone = phone;
+	}
+	
+	public Student(String usn) {
+		this.usn=usn;
+	}
+	
+	public String getUsn() {
+		return usn;
+	}
+
+	public void setUsn(String usn) {
+		this.usn = usn;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+}
+ 

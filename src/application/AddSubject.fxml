@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="850.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Subjects">
+   <children>
+      <Label alignment="CENTER" layoutX="279.0" layoutY="14.0" prefHeight="50.0" prefWidth="306.0" text="ADD SUBJECTS">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="91.0" prefHeight="32.0" prefWidth="184.0" text="Regular">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="-10.0" layoutY="197.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 1" />
+      <Label alignment="CENTER" layoutX="-10.0" layoutY="355.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 2" />
+      <Label alignment="CENTER" layoutX="-10.0" layoutY="519.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 3" />
+      <Label alignment="CENTER" layoutX="-10.0" layoutY="690.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 4" />
+      <TextField fx:id="S1C" layoutX="92.0" layoutY="150.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S1N" layoutX="92.0" layoutY="197.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S1CR" layoutX="92.0" layoutY="244.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <TextField fx:id="S2C" layoutX="92.0" layoutY="308.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S2N" layoutX="92.0" layoutY="355.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S2CR" layoutX="92.0" layoutY="402.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <TextField fx:id="S3C" layoutX="92.0" layoutY="472.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S3N" layoutX="92.0" layoutY="519.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S3CR" layoutX="92.0" layoutY="566.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <TextField fx:id="S4C" layoutX="92.0" layoutY="643.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S4N" layoutX="92.0" layoutY="690.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S4CR" layoutX="92.0" layoutY="737.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="575.0" layoutY="91.0" prefHeight="32.0" prefWidth="184.0" text="Professional Elective">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="430.0" layoutY="197.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 5" />
+      <TextField fx:id="S5C" layoutX="553.0" layoutY="151.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S5N" layoutX="553.0" layoutY="198.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S5CR" layoutX="553.0" layoutY="245.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <Label alignment="CENTER" layoutX="430.0" layoutY="378.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 6" />
+      <TextField fx:id="S6C" layoutX="553.0" layoutY="332.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S6N" layoutX="553.0" layoutY="379.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S6CR" layoutX="553.0" layoutY="426.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="564.0" layoutY="285.0" prefHeight="32.0" prefWidth="184.0" text="Open Elective">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="564.0" layoutY="472.0" prefHeight="32.0" prefWidth="184.0" text="Laboratory">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="432.0" layoutY="550.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 7" />
+      <TextField fx:id="S7C" layoutX="555.0" layoutY="504.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S7N" layoutX="555.0" layoutY="551.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S7CR" layoutX="555.0" layoutY="598.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <Label alignment="CENTER" layoutX="432.0" layoutY="689.0" prefHeight="32.0" prefWidth="125.0" rotate="-90.0" text="SUBJECT 8" />
+      <TextField fx:id="S8C" layoutX="555.0" layoutY="643.0" prefHeight="31.0" prefWidth="206.0" promptText="Code" />
+      <TextField fx:id="S8N" layoutX="555.0" layoutY="690.0" prefHeight="31.0" prefWidth="206.0" promptText="Name" />
+      <TextField fx:id="S8CR" layoutX="555.0" layoutY="737.0" prefHeight="31.0" prefWidth="206.0" promptText="Credits" />
+      <Button layoutX="357.0" layoutY="776.0" mnemonicParsing="false" onAction="#addSubjects" prefHeight="31.0" prefWidth="108.0" text="Add" />
+      <Label fx:id="STATUS" alignment="CENTER" layoutX="289.0" layoutY="815.0" prefHeight="21.0" prefWidth="245.0" textFill="#0077ff" />
+   </children>
+</AnchorPane>

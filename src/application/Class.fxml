@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateClass">
+   <children>
+      <Label alignment="CENTER" layoutX="104.0" layoutY="31.0" prefHeight="40.0" prefWidth="191.0" text="Create Class">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="180.0" prefHeight="28.0" prefWidth="109.0" text="Class Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ClassName" layoutX="153.0" layoutY="179.0" promptText="e.x 5A" />
+      <Button layoutX="145.0" layoutY="283.0" mnemonicParsing="false" onAction="#createclass" prefHeight="31.0" prefWidth="120.0" text="Create" />
+      <Label fx:id="ClassStatus" alignment="CENTER" layoutX="50.0" layoutY="382.0" prefHeight="28.0" prefWidth="310.0" textFill="#007aff" />
+   </children>
+</AnchorPane>
