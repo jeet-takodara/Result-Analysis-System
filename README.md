@@ -13,4 +13,45 @@ This project will manage
 > External Library used: **itextpdf-5.4.0.jar**
 
 ### Screenshots
-![Login](https://github.com/jeet-takodara/Result-Analysis-System/blob/images/Login.jpg?raw=true)
+
+![Login](images/Login.png)
+
+![Register](images/Register.png)
+
+![Home Page](images/Home%20Page.png)
+
+![Marks Insertion](images/Marks%20Insertion.png)
+
+![Student Report](images/Report.png)
+
+![Class Report](images/Class%20R.png)
+
+### Schema Used
+
+1. faculty_register
+
+![](images/faculty_register.png)
+
+2. class_info
+
+![](images/class_info.png)
+
+3. marks_info
+
+![](images/marks_info.png)
+
+4. subject_info
+
+![](images/subject_info.png)
+
+5. marks_info
+
+![](images/marks_info.png)
+
+### Stored Procedure Used
+
+![](images/Stored%20Procedure.PNG)
+
+### Trigger Used
+
+![](images/Trigger.PNG)
