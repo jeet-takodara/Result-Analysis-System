@@ -13,4 +13,4 @@ This project will manage
 > External Library used: **itextpdf-5.4.0.jar**
 
 ### Screenshots
-![Login][https://github.com/jeet-takodara/Result-Analysis-System/blob/images/Login.jpg?raw=true]
+![Login](https://github.com/jeet-takodara/Result-Analysis-System/blob/images/Login.jpg?raw=true)
